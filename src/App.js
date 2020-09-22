@@ -1,13 +1,15 @@
 import React from 'react';
 import Header from './components/header/header'
 import Footer from './components/footer/footer'
-import Render from './components/viagens/render'
+import Tabela from './components/tabela/tabela'
+import Form from './components/add/add'
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Render></Render>
+      <Tabela></Tabela>
+      <Form></Form>
       <Footer></Footer>
     </div>
   );
