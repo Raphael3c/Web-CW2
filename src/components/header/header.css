@@ -1,0 +1,19 @@
+#header{
+    position: relative;
+    color: white;
+    background-color: darkblue;
+}
+
+#header img{
+  position: relative;
+  width: 50px;
+  left: 10px;
+  top: 1px;
+  padding: 2px;
+  background-color: #dcdcdc;
+  border-radius: 10px;
+}
+
+#header a{
+  position: relative;
+}
