@@ -1,10 +1,10 @@
-#header{
+header{
     position: relative;
     color: white;
     background-color: darkblue;
 }
 
-#header img{
+header img{
   position: relative;
   width: 50px;
   left: 10px;
@@ -14,6 +14,6 @@
   border-radius: 10px;
 }
 
-#header a{
+header a{
   position: relative;
 }

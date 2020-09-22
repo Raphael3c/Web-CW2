@@ -4,9 +4,9 @@ import onibus from './assets/onibus.png';
 
 function header() {
   return (
-    <div id='header'>
+    <header>
         <img src={onibus} alt="logo"/>
-    </div>
+    </header>
   );
 }
 
