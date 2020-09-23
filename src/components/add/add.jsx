@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-
+import './add.css';
 
 const baseURL = 'http://localhost:3000/rotas'
 
@@ -42,9 +42,9 @@ export default class Add extends Component{
    renderForm(){
         return(
             <div id="form">
-                <label>Nome</label>
+                <label>Nome: </label>
                 <input type="text" name="nome_rota" value={this.state.rotas.nome_rota} onChange={e => this.updateField(e)}/>
-                <label>Horario</label>
+                <label> Horário: </label>
                 <input type="text" name="horario" value={this.state.rotas.horario} onChange={e => this.updateField(e)}/>
                 <button className="btn" onClick={e => this.adiciona(e)}>Salvar</button>
             </div>

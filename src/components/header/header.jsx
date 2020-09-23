@@ -6,6 +6,7 @@ function header() {
   return (
     <header>
         <img src={onibus} alt="logo"/>
+        <div id="Name">Paraty Bus</div>
     </header>
   );
 }
