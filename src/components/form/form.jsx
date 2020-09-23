@@ -31,6 +31,7 @@ export default class Add extends Component{
             const list = this.getList(resp.data)
             this.setState({rotas: initialState.rotas, list})
         })
+        window.location.reload();
     } 
 
     updateField(event){
