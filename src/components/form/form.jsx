@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import axios from 'axios';
-import './add.css';
+import './form.css';
 
 const baseURL = 'http://localhost:3000/rotas'
 
