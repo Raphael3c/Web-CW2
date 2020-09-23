@@ -33,7 +33,6 @@ export default class Render extends Component{
         })
     }
 
-
     updateField(event){
         const rota = {...this.state.rotas}
         rota[event.target.name] = event.target.value
